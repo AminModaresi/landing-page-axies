@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'brands';
+    src: url('./assets/font/fa-brands-400.eot');
+    // src: url('../font/fa-brands-400.svg') format('embedded-opentype'), /* IE6-8 */
+    src : url('./assets/font/fa-brands-400.woff2') format('woff2');
+    src : url('./assets/font/fa-brands-400.ttf') format('ttf'); 
+    src : url('./assets/font/fa-brands-400.woff') format('woff'); 
+}
+@import "./var.scss";
+html {
+  background-color: #14141f;
+    color: #fff;
+}
+.list-none {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  padding: 0.5rem 0.8rem;
+}
+.btn-outline-purple {
+  border: 1px solid map-get($map: $colors, $key: "purple-500");
+  color: map-get($map: $colors, $key: "gray-100");
+  border-radius: map-get($map: $borderRadius, $key: "full");
+}

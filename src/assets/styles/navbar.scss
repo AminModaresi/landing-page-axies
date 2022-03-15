@@ -1,0 +1,11 @@
+@import "./var.scss";
+.team-item{
+    margin: 0 0.4rem;
+    border-radius: .5rem;
+    background-color: #343444 ;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
