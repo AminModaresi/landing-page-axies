@@ -21,7 +21,7 @@ a {
   padding: 0.5rem 0.8rem;
 }
 .btn-outline-purple {
-  border: 1px solid map-get($map: $colors, $key: "purple-500");
+  border: 2px solid map-get($map: $colors, $key: "purple-500");
   color: map-get($map: $colors, $key: "gray-100");
   border-radius: map-get($map: $borderRadius, $key: "full");
 }
