@@ -2,11 +2,11 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCube, faSearch, faSpaceShuttle, faWallet } from '@fortawesome/free-solid-svg-icons'
+import { faBookmark, faCube, faImage, faSearch, faSpaceShuttle, faWallet  } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
-library.add(faSearch , faWallet , faSpaceShuttle ,faCube)
+library.add(faSearch , faWallet , faSpaceShuttle ,faCube , faBookmark , faImage)
 
 import "./assets/styles/tailwind.css"
 

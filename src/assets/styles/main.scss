@@ -25,3 +25,6 @@ a {
   color: map-get($map: $colors, $key: "gray-100");
   border-radius: map-get($map: $borderRadius, $key: "full");
 }
+.container{
+  padding: 0 0.75rem;
+}
