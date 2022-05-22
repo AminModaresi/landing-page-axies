@@ -1,5 +1,5 @@
 <template>
-  <section class="navbar">
+  <section class="navbar hidden">
     <div
       class="
         container

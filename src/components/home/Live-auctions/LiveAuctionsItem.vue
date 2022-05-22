@@ -70,7 +70,7 @@
         </p>
       </div>
       <div class="live-aution-item__footer--right">
-        <span class="bg-[#14141F] py-1 px-3 text-[0.6rem] rounded-full">
+        <span class="bg-[#14141F] py-1 px-3 text-[0.8rem] rounded-full">
           <FontAwesomeIcon class="text-gray-100" icon="heart" />
           100
         </span>
@@ -81,7 +81,14 @@
 <script>
 import { computed , ref, watchEffect} from "@vue/runtime-core";
 export default {
-  props: ["image", "avatar"],
+  props: {
+    image : {
+      type : String
+    },
+    avatar : {
+      type : String
+    }
+  },
   setup(props) {
     let images = ref("")
     let Avatar = ref("")

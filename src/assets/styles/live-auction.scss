@@ -27,3 +27,6 @@
     background-color: map-get($map: $colors, $key: "gray-900");
     margin: .9rem 0 0.6rem 0;
 }
+.swiper-pagination{
+    bottom : -10px !important;
+} 
