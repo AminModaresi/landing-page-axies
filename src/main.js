@@ -17,9 +17,12 @@ library.add(faSearch, faWallet, faSpaceShuttle, faCube, faBookmark, faImage, faF
 
 import "./assets/styles/tailwind.css"
 
+import BaseHeader from './components/UI/BaseHeader.vue'
+
 const app = createApp(App)
 app.component('FontAwesomeIcon', FontAwesomeIcon)
 app.component('Swiper', Swiper)
 app.component('SwiperSlide', SwiperSlide)
+app.component("BaseHeader" , BaseHeader)
 app.mount('#app')
 

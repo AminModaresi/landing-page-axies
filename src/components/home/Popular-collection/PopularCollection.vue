@@ -1,14 +1,11 @@
 <template>
     <section class="live-auctions py-10">
-    <div class="container mx-auto">
-      <header class="flex items-center justify-between mb-7">
-        <p class="text-[1.7rem] text-bold">Popular Collection</p>
-        <a href="" class="text-gray-100 border-b border-purple-900 hover:border-b-2 text-[0.8rem]">EXPLORE MORE</a>
-      </header>
-      <div class="flex flex-wrap justify-center">
-          <PopularCollectionItem v-for="item in data" :key="item.box" :image1="item.image1" :image2="item.image2" :image3="item.image3" :image4="item.image4" :image5="item.image5" :avatar="item.avatar" :box="item.box"/>
-      </div>
-    </div>
+        <div class="container mx-auto">
+            <BaseHeader title="Popular Colloection" :exploer="true"/>
+            <div class="flex flex-wrap justify-center">
+                <PopularCollectionItem v-for="item in data" :key="item.box" :image1="item.image1" :image2="item.image2" :image3="item.image3" :image4="item.image4" :image5="item.image5" :avatar="item.avatar" :box="item.box"/>
+            </div>
+        </div>
   </section>
 </template>
 
